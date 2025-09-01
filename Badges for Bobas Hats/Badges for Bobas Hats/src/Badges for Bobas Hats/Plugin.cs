@@ -23,5 +23,6 @@ public partial class Plugin : BaseUnityPlugin
         Logger.LogInfo("Badges for Bobas Hats are loaded!");
         
         _harmony.PatchAll(typeof(CharacterOnJumpPatch));
+        _harmony.PatchAll(typeof(CharacterAfflictionsAddStatus));
     }
 }
