@@ -25,7 +25,7 @@ public static class BadgeRegistry
             name: BadgeNames.ToastBadge,
             displayName: "YOU'RE TOAST!", // All uppercase to match in game badge name display
             description: "Get a whole bar of heat damage.",
-            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            icon: _badgeIcons[BadgeNames.ToastBadge], //128x128 Texture2D
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -82,7 +82,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge2,
             displayName: "BOING... AGAIN?!",
             description: "Jump 250 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge2],
             progressRequired: 250
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge2, "Boba_labubu_blue");
@@ -91,7 +91,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge3,
             displayName: "BOING... AGAIN AGAIN?!",
             description: "Jump 500 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge3],
             progressRequired: 500
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge3, "Boba_labubu_cyan");
@@ -100,16 +100,16 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge4,
             displayName: "BOING... AGAIN AGAIN AGAIN?!",
             description: "Jump 1000 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge4],
             progressRequired: 1000
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge4, "Boba_labubu_green");
         
         MoreBadgesPlugin.CustomBadge boingBadge5 = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.BoingBadge5,
-            displayName: "BOING... AGAIN AGAIN AGAIN AG- THAT'S ENOUGH!",
+            displayName: "BOING... DON'T YOU GET TIRED?!",
             description: "Jump 2000 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge5],
             progressRequired: 2000
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge5, "Boba_labubu_orange");
@@ -118,7 +118,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge6,
             displayName: "BOING... YOU REALLY LIKE JUMPING!",
             description: "Jump 3000 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge6],
             progressRequired: 3000
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge6, "Boba_labubu_pink");
@@ -127,7 +127,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge7,
             displayName: "BOING.. WOW YOU DON'T STOP!",
             description: "Jump 5000 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge7],
             progressRequired: 5000
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge7, "Boba_labubu_purple");
@@ -136,7 +136,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge8,
             displayName: "BOING... BASICALLY A RABIT!",
             description: "Jump 7500 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge8],
             progressRequired: 7500
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge8, "Boba_labubu_red");
@@ -145,7 +145,7 @@ public static class BadgeRegistry
             name: BadgeNames.BoingBadge9,
             displayName: "BOING... YOU'VE JUMPED HOW MANY TIMES?!",
             description: "Jump 10000 times.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BoingBadge9],
             progressRequired: 10000
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge9, "Boba_labubu_yellow");

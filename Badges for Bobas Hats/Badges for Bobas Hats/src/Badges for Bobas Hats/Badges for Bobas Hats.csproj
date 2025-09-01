@@ -27,6 +27,24 @@
     <ItemGroup>
       <None Remove="Resources\circle_labubu_256.png" />
       <EmbeddedResource Include="Resources\Boing.png" />
+      <None Remove="Resources\Boing_2.png" />
+      <EmbeddedResource Include="Resources\Boing_2.png" />
+      <None Remove="Resources\Boing_3.png" />
+      <EmbeddedResource Include="Resources\Boing_3.png" />
+      <None Remove="Resources\Boing_4.png" />
+      <EmbeddedResource Include="Resources\Boing_4.png" />
+      <None Remove="Resources\Boing_5.png" />
+      <EmbeddedResource Include="Resources\Boing_5.png" />
+      <None Remove="Resources\Boing_6.png" />
+      <EmbeddedResource Include="Resources\Boing_6.png" />
+      <None Remove="Resources\Boing_7.png" />
+      <EmbeddedResource Include="Resources\Boing_7.png" />
+      <None Remove="Resources\Boing_8.png" />
+      <EmbeddedResource Include="Resources\Boing_8.png" />
+      <None Remove="Resources\Boing_9.png" />
+      <EmbeddedResource Include="Resources\Boing_9.png" />
+      <None Remove="Resources\Toast.png" />
+      <EmbeddedResource Include="Resources\Toast.png" />
     </ItemGroup>
 
     <!--
