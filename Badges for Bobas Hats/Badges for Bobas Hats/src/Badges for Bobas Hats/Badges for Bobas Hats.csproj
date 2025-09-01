@@ -20,6 +20,15 @@
       </Reference>
     </ItemGroup>
 
+    <ItemGroup>
+      <Folder Include="Resources\" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <None Remove="Resources\circle_labubu_256.png" />
+      <EmbeddedResource Include="Resources\Boing.png" />
+    </ItemGroup>
+
     <!--
     How to include thunderstore mods as dependencies via nuget
   

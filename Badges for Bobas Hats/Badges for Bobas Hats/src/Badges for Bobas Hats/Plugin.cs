@@ -1,7 +1,10 @@
-﻿using Badges_for_Bobas_Hats.Patches;
+﻿using System.IO;
+using System.Reflection;
+using Badges_for_Bobas_Hats.Patches;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
+using UnityEngine;
 
 namespace Badges_for_Bobas_Hats;
 
@@ -19,10 +22,12 @@ public partial class Plugin : BaseUnityPlugin
     {
         Logger = base.Logger;
         Logger.LogInfo($"Plugin {Name} is loaded!");
-        BadgeRegistry.RegisterBadges();
+        BadgeRegistry.Init();
         Logger.LogInfo("Badges for Bobas Hats are loaded!");
         
         _harmony.PatchAll(typeof(CharacterOnJumpPatch));
         _harmony.PatchAll(typeof(CharacterAfflictionsAddStatus));
     }
+
+    
 }

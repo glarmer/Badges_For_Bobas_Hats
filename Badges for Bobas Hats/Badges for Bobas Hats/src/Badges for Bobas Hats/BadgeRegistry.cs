@@ -1,12 +1,24 @@
+using System.Collections.Generic;
+using System.IO;
+using System.Reflection;
 using MoreBadges;
 using UnityEngine;
+using Debug = System.Diagnostics.Debug;
 
 namespace Badges_for_Bobas_Hats;
 
 public static class BadgeRegistry
 {
     private static readonly Texture2D PlaceholderBadgeIcon = Texture2D.whiteTexture;
-    public static void RegisterBadges()
+    private static Dictionary<string, Texture2D> _badgeIcons = new();
+
+    public static void Init()
+    {
+        LoadBadgeResources();
+        RegisterBadges();
+    }
+    
+    private static void RegisterBadges()
     {
         RegisterLabubuBadges();
         MoreBadgesPlugin.CustomBadge toastBadge = new MoreBadgesPlugin.CustomBadge(
@@ -19,15 +31,49 @@ public static class BadgeRegistry
         );
         MoreBadgesPlugin.RegisterBadge(toastBadge, "Boba_toast");
     }
+    
+    private static void LoadBadgeResources()
+    {
+        var assembly = Assembly.GetExecutingAssembly();
+        string[] resources = assembly.GetManifestResourceNames();
+
+        foreach (string resourceName in resources)
+        {
+            Plugin.Logger.LogError($"Trying to load resource: {resourceName}");
+            if (!resourceName.EndsWith(".png") || !resourceName.Contains(".Resources."))
+                continue;
+
+            using (Stream stream = assembly.GetManifestResourceStream(resourceName))
+            {
+                if (stream == null)
+                {
+                    Plugin.Logger.LogError($"Failed to load resource: {resourceName}");
+                    continue;
+                }
+
+                byte[] data = new byte[stream.Length];
+                stream.Read(data, 0, data.Length);
+
+                string badgeName = "Badge_Badges_For_Bobas_Hats_" + resourceName.Split('.')[^2];
+                Texture2D badge = new Texture2D(2, 2, TextureFormat.RGBA32, false);
+                badge.LoadImage(data);
+
+                _badgeIcons[badgeName] = badge;
+
+                Plugin.Logger.LogInfo(
+                    $"Loaded embedded badge texture {badgeName} ({badge.width}x{badge.height})"
+                );
+            }
+        }
+    }
 
     private static void RegisterLabubuBadges()
     {
-        
         MoreBadgesPlugin.CustomBadge boingBadge = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.BoingBadge,
             displayName: "BOING!", // All uppercase to match in game badge name display
             description: "Jump 50 times.",
-            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            icon: _badgeIcons[BadgeNames.BoingBadge], //128x128 Texture2D
             progressRequired: 50
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge, "Boba_labubu");
