@@ -11,6 +11,15 @@
         <Version>0.1.0</Version>
     </PropertyGroup>
 
+    <ItemGroup>
+      <Reference Include="BobaHats">
+        <HintPath>..\..\..\..\..\..\Documents\DepedenciesDLLS\BobaHats.dll</HintPath>
+      </Reference>
+      <Reference Include="MoreBadges">
+        <HintPath>..\..\..\..\..\..\Documents\DepedenciesDLLS\MoreBadges.dll</HintPath>
+      </Reference>
+    </ItemGroup>
+
     <!--
     How to include thunderstore mods as dependencies via nuget
   
