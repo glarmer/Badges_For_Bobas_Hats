@@ -15,4 +15,5 @@ public static class BadgeNames
     public const string ToastBadge = $"{BadgePrefix}Toast";
     public const string MagicBeanVineBadge = $"{BadgePrefix}Magic_Bean_Vine";
     public const string BearBadge = $"{BadgePrefix}Bear";
+    public const string DiscoBadge = $"{BadgePrefix}Disco";
 }

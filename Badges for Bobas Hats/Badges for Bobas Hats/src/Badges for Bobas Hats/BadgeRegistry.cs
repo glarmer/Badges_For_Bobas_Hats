@@ -50,6 +50,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(bearBadge, "Boba_bear");
+        
+        MoreBadgesPlugin.CustomBadge discoBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.DiscoBadge,
+            displayName: "SCOUT RAVE!", // All uppercase to match in game badge name display
+            description: "Dance at an epic performance.",
+            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(discoBadge, "Boba_disco");
     }
     
     private static void LoadBadgeResources()
