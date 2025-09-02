@@ -2,6 +2,7 @@ using System;
 using System.Collections.Generic;
 using HarmonyLib;
 using MoreBadges;
+using UnityEngine;
 
 namespace Badges_for_Bobas_Hats.Patches;
 
@@ -14,5 +15,10 @@ public class BugleSFXRPCStartTootPatch
     static void Postfix(BugleSFX __instance)
     {
         BuglesPlaying++;
+        Plugin.Logger.LogInfo($"Toot happened at: {Time.time} Dance time: {CharacterAnimationsRPCAPlayRemove.EmoteTime}");
+        if (CharacterAnimationsRPCAPlayRemove.EmoteTime + 3f >= Time.time)
+        {
+            MoreBadgesPlugin.AddProgress(BadgeNames.DiscoBadge, 1);
+        }
     }
 }

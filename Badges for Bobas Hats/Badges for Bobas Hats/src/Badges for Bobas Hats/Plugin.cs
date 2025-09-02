@@ -29,6 +29,8 @@ public partial class Plugin : BaseUnityPlugin
         _harmony.PatchAll(typeof(ActionConsumeRunActionPatch));
         
         _harmony.PatchAll(typeof(CharacterAnimationsRPCAPlayRemove));
+        _harmony.PatchAll(typeof(BugleSFXRPCStartTootPatch));
+        _harmony.PatchAll(typeof(BugleSFXRPCEndTootPatch));
     }
 
     
