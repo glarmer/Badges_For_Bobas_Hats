@@ -10,8 +10,6 @@ public class CharacterOnJumpPatch
     [HarmonyPostfix]
     static void Postfix(Character __instance)
     {
-        Plugin.jumped++;
-        Plugin.Logger.LogInfo("Jumped: " + Plugin.jumped);
         MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge, 1);
         MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge2, 1);
         MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge3, 1);

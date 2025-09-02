@@ -16,8 +16,6 @@ public partial class Plugin : BaseUnityPlugin
     internal new static ManualLogSource Logger;
     private readonly Harmony _harmony = new(Id);
 
-    public static int jumped = 0;
-
     private void Awake()
     {
         Logger = base.Logger;
