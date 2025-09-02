@@ -1,10 +1,7 @@
-﻿using System.IO;
-using System.Reflection;
-using Badges_for_Bobas_Hats.Patches;
+﻿using Badges_for_Bobas_Hats.Patches;
 using BepInEx;
 using BepInEx.Logging;
 using HarmonyLib;
-using UnityEngine;
 
 namespace Badges_for_Bobas_Hats;
 

@@ -1,7 +1,4 @@
-using System;
-using System.Collections.Generic;
 using HarmonyLib;
-using MoreBadges;
 
 namespace Badges_for_Bobas_Hats.Patches;
 

@@ -3,7 +3,6 @@ using System.IO;
 using System.Reflection;
 using MoreBadges;
 using UnityEngine;
-using Debug = System.Diagnostics.Debug;
 
 namespace Badges_for_Bobas_Hats;
 
