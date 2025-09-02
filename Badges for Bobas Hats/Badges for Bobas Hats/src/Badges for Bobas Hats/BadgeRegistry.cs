@@ -69,6 +69,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(jamiroBadge, "Boba_jamiro_hat");
+        
+        MoreBadgesPlugin.CustomBadge knitRainbowBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.RainbowBadge,
+            displayName: "TASTE THE RAINBOW!",
+            description: "Eat a rainbow of fruit.",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(knitRainbowBadge, "Boba_knit_rainbow");
     }
     
     private static void LoadBadgeResources()
