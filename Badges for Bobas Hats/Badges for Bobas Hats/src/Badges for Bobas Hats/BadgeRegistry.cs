@@ -59,6 +59,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(discoBadge, "Boba_disco");
+        
+        MoreBadgesPlugin.CustomBadge jamiroBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.JamiroBadge,
+            displayName: "VIRTUAL INSANITY!",
+            description: "Move like magic with your arm out.",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(jamiroBadge, "Boba_jamiro_hat");
     }
     
     private static void LoadBadgeResources()
