@@ -34,7 +34,7 @@ Any other site is not run by me and may contain malware. Please make sure to dow
 ## Help
 - Please report issues to [the mods github](https://github.com/glarmer/Badges_For_Bobas_Hats/)
 
-# Show your support!
+## Show your support!
 
 [![Cats Protection](https://panels.twitch.tv/panel-91904368-image-47a8d464-e0e2-4b7d-8b3b-a0bd922d828b)](https://www.cats.org.uk/donate)
 > From humble beginnings in 1927, Cats Protection has grown to become the UK's leading cat charity.
