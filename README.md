@@ -1,4 +1,4 @@
-# PEAK Unlimited
+# Badges For Boba's Hats
 
 Are you a particularly dedicated scout? Do you feel ready to ascend to unprecedented levels of badge collection?
 
@@ -14,6 +14,7 @@ Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and prog
 
 ## My other mods
 
+- [PEAK Unlimited](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unlimited/) - Allows you to play with 5+ players
 - [PEAK Unbound](https://thunderstore.io/c/peak/p/glarmer/PEAK_Unbound/) - Allows you to rebind your keys
 - [Voice Volume Saver](https://thunderstore.io/c/peak/p/glarmer/PEAK_Voice_Volume_Saver/) - Saves the volume of all your friends, no more adjusting their volume every time you load in!
 
@@ -27,12 +28,11 @@ Did you know I take commissions? Contact me on discord @glarmer if you'd like to
 The only official pages for this mod are as follows:
 - Thunderstore: 
 - GitHub: https://github.com/glarmer/Badges_For_Bobas_Hats/
-- Nexus: 
 
 Any other site is not run by me and may contain malware. Please make sure to download from an official source.
 
 ## Help
-- Please report issues to [the mods github](https://github.com/glarmer/PEAK-Unlimited/), alternatively I will periodically check the [steam guide](https://steamcommunity.com/sharedfiles/filedetails/?id=3501916945&tscn=1750268995)
+- Please report issues to [the mods github](https://github.com/glarmer/Badges_For_Bobas_Hats/)
 
 # Show your support!
 
