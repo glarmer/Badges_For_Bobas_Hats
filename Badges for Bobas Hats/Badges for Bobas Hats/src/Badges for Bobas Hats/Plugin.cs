@@ -27,6 +27,7 @@ public partial class Plugin : BaseUnityPlugin
         
         _harmony.PatchAll(typeof(CharacterOnJumpPatch));
         _harmony.PatchAll(typeof(CharacterAfflictionsAddStatus));
+        _harmony.PatchAll(typeof(MagicBeanGrowVineRPC));
     }
 
     

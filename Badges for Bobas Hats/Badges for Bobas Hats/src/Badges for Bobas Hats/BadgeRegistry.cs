@@ -30,6 +30,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(toastBadge, "Boba_toast");
+        
+        MoreBadgesPlugin.CustomBadge magicBeanVineBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.MagicBeanVineBadge,
+            displayName: "GREEN THUMB!", // All uppercase to match in game badge name display
+            description: "Grow a magical vine.",
+            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(magicBeanVineBadge, "Boba_sprout");
     }
     
     private static void LoadBadgeResources()
@@ -39,7 +49,7 @@ public static class BadgeRegistry
 
         foreach (string resourceName in resources)
         {
-            Plugin.Logger.LogError($"Trying to load resource: {resourceName}");
+            Plugin.Logger.LogInfo($"Trying to load resource: {resourceName}");
             if (!resourceName.EndsWith(".png") || !resourceName.Contains(".Resources."))
                 continue;
 
