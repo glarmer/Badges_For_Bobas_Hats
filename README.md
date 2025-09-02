@@ -22,7 +22,7 @@ Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and prog
 Did you know I take commissions? Contact me on discord @glarmer if you'd like to discuss! Note: All commissions must go through PayPal for the safety of you as a buyer and me as a seller.
 
 ## Important
-- DO NOT UNDER ANY CIRCUMSTANCE COMPLAIN ABOUT BUGS TO THE DEVELOPERS WHILE USING MODS. UNINSTALL MODS IF YOU ENCOUNTER BUGS AND THEN REPORT THEM IF THEY ARE STILL PRESENT.
+- Do not report bugs to the PEAK developers if you are using mods. Only report bugs to the PEAK devs if you have uninstalled all your mods and the bug still persists.
 - Please search the PEAK Steam discussions if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the GitHub issues.
 
 The only official pages for this mod are as follows:
