@@ -34,7 +34,7 @@ public static class BadgeRegistry
             name: BadgeNames.MagicBeanVineBadge,
             displayName: "GREEN THUMB!",
             description: "Grow a magical vine.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.MagicBeanVineBadge],
             progressRequired: 1,
             runBasedProgress: true
         );

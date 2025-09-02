@@ -21,10 +21,6 @@
     </ItemGroup>
 
     <ItemGroup>
-      <Folder Include="Resources\" />
-    </ItemGroup>
-
-    <ItemGroup>
       <None Remove="Resources\circle_labubu_256.png" />
       <EmbeddedResource Include="Resources\Boing.png" />
       <None Remove="Resources\Boing_2.png" />
@@ -47,6 +43,8 @@
       <EmbeddedResource Include="Resources\Toast.png" />
       <None Remove="Resources\Bear.png" />
       <EmbeddedResource Include="Resources\Bear.png" />
+      <None Remove="Resources\Magic_Bean_Vine.png" />
+      <EmbeddedResource Include="Resources\Magic_Bean_Vine.png" />
     </ItemGroup>
 
     <!--
