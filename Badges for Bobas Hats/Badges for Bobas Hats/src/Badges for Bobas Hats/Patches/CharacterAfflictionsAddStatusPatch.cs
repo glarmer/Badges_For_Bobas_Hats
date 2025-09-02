@@ -4,7 +4,7 @@ using Peak.Afflictions;
 
 namespace Badges_for_Bobas_Hats.Patches;
 
-public class CharacterAfflictionsAddStatus
+public class CharacterAfflictionsAddStatusPatch
 {
     [HarmonyPatch(typeof(CharacterAfflictions), "AddStatus")]
     [HarmonyPostfix]

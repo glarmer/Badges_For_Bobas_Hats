@@ -3,7 +3,7 @@ using MoreBadges;
 
 namespace Badges_for_Bobas_Hats.Patches;
 
-public class MagicBeanGrowVineRPC
+public class MagicBeanGrowVineRPCPatch
 {
     [HarmonyPatch(typeof(MagicBean), nameof(MagicBean.GrowVineRPC))]
     [HarmonyPostfix]

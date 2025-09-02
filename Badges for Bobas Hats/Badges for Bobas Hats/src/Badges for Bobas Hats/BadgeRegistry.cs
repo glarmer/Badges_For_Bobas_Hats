@@ -40,6 +40,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(magicBeanVineBadge, "Boba_sprout");
+        
+        MoreBadgesPlugin.CustomBadge bearBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.BearBadge,
+            displayName: "MMM HONEY!", // All uppercase to match in game badge name display
+            description: "Consume the nectar of the gods.",
+            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(bearBadge, "Boba_bear");
     }
     
     private static void LoadBadgeResources()
