@@ -24,7 +24,7 @@ public static class BadgeRegistry
             name: BadgeNames.ToastBadge,
             displayName: "YOU'RE TOAST!", // All uppercase to match in game badge name display
             description: "Get a whole bar of heat damage.",
-            icon: _badgeIcons[BadgeNames.ToastBadge], //128x128 Texture2D
+            icon: _badgeIcons[BadgeNames.ToastBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -32,9 +32,9 @@ public static class BadgeRegistry
         
         MoreBadgesPlugin.CustomBadge magicBeanVineBadge = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.MagicBeanVineBadge,
-            displayName: "GREEN THUMB!", // All uppercase to match in game badge name display
+            displayName: "GREEN THUMB!",
             description: "Grow a magical vine.",
-            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            icon: PlaceholderBadgeIcon,
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -42,9 +42,9 @@ public static class BadgeRegistry
         
         MoreBadgesPlugin.CustomBadge bearBadge = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.BearBadge,
-            displayName: "MMM HONEY!", // All uppercase to match in game badge name display
+            displayName: "MMM HONEY!",
             description: "Consume the nectar of the gods.",
-            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            icon: _badgeIcons[BadgeNames.BearBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -52,9 +52,9 @@ public static class BadgeRegistry
         
         MoreBadgesPlugin.CustomBadge discoBadge = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.DiscoBadge,
-            displayName: "SCOUT RAVE!", // All uppercase to match in game badge name display
+            displayName: "SCOUT RAVE!",
             description: "Dance at an epic performance.",
-            icon: PlaceholderBadgeIcon, //128x128 Texture2D
+            icon: PlaceholderBadgeIcon,
             progressRequired: 1,
             runBasedProgress: true
         );
