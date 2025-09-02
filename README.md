@@ -24,6 +24,7 @@ Did you know I take commissions? Contact me on discord @glarmer if you'd like to
 ## Important
 - Do not report bugs to the PEAK developers if you are using mods. Only report bugs to the PEAK devs if you have uninstalled all your mods and the bug still persists.
 - Please search the PEAK Steam discussions if you face bugs as they are possibly caused by the game and not the mod. If you continue to experience issues then please reach out via the GitHub issues.
+- This mod is not affiliated with Boba or [Boba's Hats](https://github.com/Team-Pedguin/BobasHats)!
 
 The only official pages for this mod are as follows:
 - Thunderstore: 
@@ -44,6 +45,7 @@ Any other site is not run by me and may contain malware. Please make sure to dow
 ## License
 The source code for this mod is licensed under GNU GPL V3
 The creative assets for this mod are licensed under CC BY-NC-SA 4.0. Many of the badge icons are derived from/utilise Boba's original hat icons.
+This mod is not affiliated with Boba or [Boba's Hats](https://github.com/Team-Pedguin/BobasHats)!
 
 The creative assets in this mod are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
