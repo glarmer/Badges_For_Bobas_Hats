@@ -79,6 +79,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(knitRainbowBadge, "Boba_knit_rainbow");
+        
+        MoreBadgesPlugin.CustomBadge mustardBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.MustardBadge,
+            displayName: "HEALTH ADVERSE!",
+            description: "Fruit and veg? Over your dead body.",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(mustardBadge, "Boba_mustard");
     }
     
     private static void LoadBadgeResources()
