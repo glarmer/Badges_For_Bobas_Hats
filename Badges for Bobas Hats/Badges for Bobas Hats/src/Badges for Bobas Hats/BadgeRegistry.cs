@@ -99,6 +99,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(penguinBadge, "Boba_penguin");
+        
+        MoreBadgesPlugin.CustomBadge chairBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.ChairBadge,
+            displayName: "ETERNAL SIT!",
+            description: "Be carried into the afterlife.",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(penguinBadge, "Boba_chair");
     }
     
     private static void LoadBadgeResources()
