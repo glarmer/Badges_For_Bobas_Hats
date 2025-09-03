@@ -108,7 +108,7 @@ public static class BadgeRegistry
             progressRequired: 1,
             runBasedProgress: true
         );
-        MoreBadgesPlugin.RegisterBadge(penguinBadge, "Boba_chair_hat");
+        MoreBadgesPlugin.RegisterBadge(chairBadge, "Boba_chair_hat");
     }
     
     private static void LoadBadgeResources()
