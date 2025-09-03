@@ -31,11 +31,12 @@ public class ActionConsumeRunActionPatch
             }
         }
 
-        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeNames.MustardBadge).isUnlocked)
+        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeNames.MustardBadge)!.isUnlocked)
         {
             if (__instance.item.name.Contains("Coconut")) AchievementFlagManager.HasConsumedNaturalFood = true;
             if (__instance.item.name.ToLower().Contains("berry")) AchievementFlagManager.HasConsumedNaturalFood = true;
             if (__instance.item.name.ToLower().Contains("root")) AchievementFlagManager.HasConsumedNaturalFood = true;
+            if (__instance.item.name.ToLower().Contains("shroom")) AchievementFlagManager.HasConsumedNaturalFood = true;
         }
         
     }
