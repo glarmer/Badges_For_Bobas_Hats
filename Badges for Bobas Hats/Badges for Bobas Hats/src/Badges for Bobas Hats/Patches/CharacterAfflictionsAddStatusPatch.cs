@@ -10,12 +10,18 @@ public class CharacterAfflictionsAddStatusPatch
     [HarmonyPostfix]
     static void Postfix(CharacterAfflictions __instance, CharacterAfflictions.STATUSTYPE statusType)
     {
+        int index = (int) statusType;
         if (statusType == CharacterAfflictions.STATUSTYPE.Hot)
         {
-            int index = (int) statusType;
             if (__instance.currentStatuses[index] >= 1)
             {
                 MoreBadgesPlugin.AddProgress(BadgeNames.ToastBadge, 1);
+            }
+        } else if (statusType == CharacterAfflictions.STATUSTYPE.Cold)
+        {
+            if (__instance.currentStatuses[index] >= 1)
+            {
+                MoreBadgesPlugin.AddProgress(BadgeNames.PenguinBadge, 1);
             }
         }
     }

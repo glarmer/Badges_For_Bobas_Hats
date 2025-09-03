@@ -16,6 +16,8 @@ public class AchievementFlagManager
 
     public static bool HasConsumedNaturalFood = false;
     
+    public static bool HasHealedThisGame = false;
+    
     static AchievementFlagManager()
     {
         GlobalEvents.OnSomeoneWonRun += UnlockWinBasedAchievements;

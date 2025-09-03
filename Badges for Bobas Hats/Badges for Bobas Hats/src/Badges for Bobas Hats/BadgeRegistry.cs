@@ -23,7 +23,7 @@ public static class BadgeRegistry
         MoreBadgesPlugin.CustomBadge toastBadge = new MoreBadgesPlugin.CustomBadge(
             name: BadgeNames.ToastBadge,
             displayName: "YOU'RE TOAST!", // All uppercase to match in game badge name display
-            description: "Get a whole bar of heat damage.",
+            description: "Singed to the absolute max.",
             icon: _badgeIcons[BadgeNames.ToastBadge],
             progressRequired: 1,
             runBasedProgress: true
@@ -89,6 +89,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(mustardBadge, "Boba_mustard");
+        
+        MoreBadgesPlugin.CustomBadge penguinBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.PenguinBadge,
+            displayName: "CHILLY!",
+            description: "It's a bit nippy out isn't it?",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(penguinBadge, "Boba_penguin");
     }
     
     private static void LoadBadgeResources()
