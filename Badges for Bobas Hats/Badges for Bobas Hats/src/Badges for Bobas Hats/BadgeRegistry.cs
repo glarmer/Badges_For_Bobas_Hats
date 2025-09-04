@@ -109,6 +109,16 @@ public static class BadgeRegistry
             runBasedProgress: true
         );
         MoreBadgesPlugin.RegisterBadge(chairBadge, "Boba_chair_hat");
+        
+        MoreBadgesPlugin.CustomBadge bowBadge = new MoreBadgesPlugin.CustomBadge(
+            name: BadgeNames.BowBadge,
+            displayName: "SUCH A CUTIE!",
+            description: "Give the bestest boys some pets.",
+            icon: PlaceholderBadgeIcon,
+            progressRequired: 1,
+            runBasedProgress: true
+        );
+        MoreBadgesPlugin.RegisterBadge(bowBadge, "Boba_bow");
     }
     
     private static void LoadBadgeResources()

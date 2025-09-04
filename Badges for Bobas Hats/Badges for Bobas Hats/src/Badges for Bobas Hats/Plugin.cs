@@ -38,6 +38,8 @@ public partial class Plugin : BaseUnityPlugin
         _harmony.PatchAll(typeof(BugleSFXRPCEndTootPatch));
         
         _harmony.PatchAll(typeof(PlayerMoveZoneAddForceToCharacterPatch));
+        
+        _harmony.PatchAll(typeof(BodypartOnCollisionEnterPatch));
     }
 
     
