@@ -28,7 +28,7 @@ Did you know I take commissions? Contact me on discord @glarmer if you'd like to
 - This mod is not affiliated with Boba or [Boba's Hats](https://github.com/Team-Pedguin/BobasHats)!
 
 The only official pages for this mod are as follows:
-- Thunderstore: 
+- Thunderstore: https://thunderstore.io/c/peak/p/glarmer/Badges_For_Bobas_Hats/
 - GitHub: https://github.com/glarmer/Badges_For_Bobas_Hats/
 
 Any other site is not run by me and may contain malware. Please make sure to download from an official source.
