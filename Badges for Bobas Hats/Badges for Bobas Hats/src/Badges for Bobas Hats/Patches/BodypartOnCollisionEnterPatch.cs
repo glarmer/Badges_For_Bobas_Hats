@@ -12,9 +12,15 @@ public class BodypartOnCollisionEnterPatch
     {
         if (__instance.partType == BodypartType.Arm_R && __instance.character.input.useSecondaryIsPressed)
         {
-            if (collision.collider.name.StartsWith("Capybara"))
+            Transform current = collision.collider.transform;
+            while (current != null)
             {
-                MoreBadgesPlugin.AddProgress(BadgeNames.BowBadge, 1);
+                if (current.name.StartsWith("Capybara"))
+                {
+                    MoreBadgesPlugin.AddProgress(BadgeNames.BowBadge, 1);
+                    break;
+                }
+                current = current.parent;
             }
         }
     }

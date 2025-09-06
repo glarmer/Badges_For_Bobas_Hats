@@ -45,6 +45,8 @@
       <EmbeddedResource Include="Resources\Bear.png" />
       <None Remove="Resources\Magic_Bean_Vine.png" />
       <EmbeddedResource Include="Resources\Magic_Bean_Vine.png" />
+      <None Remove="Resources\Rainbow.png" />
+      <EmbeddedResource Include="Resources\Rainbow.png" />
     </ItemGroup>
 
     <!--

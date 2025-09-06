@@ -30,7 +30,7 @@ public partial class Plugin : BaseUnityPlugin
         _harmony.PatchAll(typeof(MagicBeanGrowVineRPCPatch));
         
         //Patch for Bear hat
-        _harmony.PatchAll(typeof(ActionConsumeRunActionPatch));
+        _harmony.PatchAll(typeof(ActionRestoreHungerRunActionPatch));
         
         //Patches for Disco hat
         _harmony.PatchAll(typeof(CharacterAnimationsRPCAPlayRemove));
