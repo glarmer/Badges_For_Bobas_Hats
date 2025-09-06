@@ -2,7 +2,7 @@
 
 Are you a particularly dedicated scout? Do you feel ready to ascend to unprecedented levels of badge collection?
 
-![peakunlimited2](https://glarmer.xyz/images/head.png)
+![peakunlimited2](https://glarmer.xyz/images/badgesforboba/banner.png)
 
 Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and progression to Boba's Hats! 
 
@@ -11,6 +11,7 @@ Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and prog
 ## Features:
 - Adds progression and badges to Boba's Hats Mod
 - Many unlockable hats!
+- Currently 19 badges, more to come!
 
 ## My other mods
 
@@ -49,7 +50,3 @@ This mod is not affiliated with Boba or [Boba's Hats](https://github.com/Team-Pe
 
 The creative assets in this mod are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-## Images
-- Here are some fun pictures using the mod
-
