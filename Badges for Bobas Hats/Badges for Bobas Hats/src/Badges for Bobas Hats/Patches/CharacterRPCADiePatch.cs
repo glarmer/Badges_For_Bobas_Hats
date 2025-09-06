@@ -6,7 +6,7 @@ namespace Badges_for_Bobas_Hats.Patches;
 public class CharacterRPCADiePatch
 {
     [HarmonyPatch(typeof(Character), nameof(Character.RPCA_Die))]
-    [HarmonyPostfix]
+    [HarmonyPrefix]
     static void Prefix(Character __instance)
     {
         if (__instance.data.isCarried)

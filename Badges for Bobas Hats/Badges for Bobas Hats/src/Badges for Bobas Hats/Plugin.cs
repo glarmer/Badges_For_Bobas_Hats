@@ -40,6 +40,8 @@ public partial class Plugin : BaseUnityPlugin
         _harmony.PatchAll(typeof(PlayerMoveZoneAddForceToCharacterPatch));
         
         _harmony.PatchAll(typeof(BodypartOnCollisionEnterPatch));
+        
+        _harmony.PatchAll(typeof(CharacterRPCADiePatch));
     }
 
     
