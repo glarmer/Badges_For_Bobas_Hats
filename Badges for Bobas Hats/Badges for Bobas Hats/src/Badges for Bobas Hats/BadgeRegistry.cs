@@ -16,6 +16,17 @@ public static class BadgeRegistry
         LoadBadgeResources();
         RegisterBadges();
     }
+
+    private static List<string> CreateFakeLocalisations(string badgeInfo)
+    {
+        int numberOfLangs = 13;
+        List<string> localisations = new List<string>();
+        for (int i = 0; i < numberOfLangs; i++)
+        {
+            localisations.Add(badgeInfo);
+        }
+        return localisations;
+    }
     
     private static void RegisterBadges()
     {
@@ -26,7 +37,9 @@ public static class BadgeRegistry
             description: "Singed to the absolute max.",
             icon: _badgeIcons[BadgeNames.ToastBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("YOU'RE TOAST!"),
+            descriptionLocalizations: CreateFakeLocalisations("Singed to the absolute max.")
         );
         MoreBadgesPlugin.RegisterBadge(toastBadge, "Boba_toast");
         
@@ -36,7 +49,9 @@ public static class BadgeRegistry
             description: "Grow a magical vine.",
             icon: _badgeIcons[BadgeNames.MagicBeanVineBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("GREEN THUMB!"),
+            descriptionLocalizations: CreateFakeLocalisations("You traded the family cow for what??")
         );
         MoreBadgesPlugin.RegisterBadge(magicBeanVineBadge, "Boba_sprout");
         
@@ -46,7 +61,9 @@ public static class BadgeRegistry
             description: "Consume the nectar of the gods.",
             icon: _badgeIcons[BadgeNames.BearBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("MMM HONEY!"),
+            descriptionLocalizations: CreateFakeLocalisations("Consume the nectar of the gods.")
         );
         MoreBadgesPlugin.RegisterBadge(bearBadge, "Boba_bear");
         
@@ -56,7 +73,9 @@ public static class BadgeRegistry
             description: "Dance at an epic performance.",
             icon: _badgeIcons[BadgeNames.DiscoBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations( "SCOUT RAVE!"),
+            descriptionLocalizations: CreateFakeLocalisations("Dance at an epic performance.")
         );
         MoreBadgesPlugin.RegisterBadge(discoBadge, "Boba_disco");
         
@@ -66,7 +85,9 @@ public static class BadgeRegistry
             description: "Move like magic with your arm out.",
             icon: _badgeIcons[BadgeNames.JamiroBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("VIRTUAL INSANITY!"),
+            descriptionLocalizations: CreateFakeLocalisations("Move like magic with your arm out.")
         );
         MoreBadgesPlugin.RegisterBadge(jamiroBadge, "Boba_jamiro_hat");
         
@@ -76,7 +97,9 @@ public static class BadgeRegistry
             description: "Eat a rainbow of fruit.",
             icon: _badgeIcons[BadgeNames.RainbowBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("TASTE THE RAINBOW!"),
+            descriptionLocalizations: CreateFakeLocalisations("Eat a rainbow of fruit.")
         );
         MoreBadgesPlugin.RegisterBadge(knitRainbowBadge, "Boba_knit_rainbow");
         
@@ -86,7 +109,9 @@ public static class BadgeRegistry
             description: "Fruit and veg? Over your dead body.",
             icon: _badgeIcons[BadgeNames.MustardBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("HEALTH ADVERSE!"),
+            descriptionLocalizations: CreateFakeLocalisations("Fruit and veg? Over your dead body.")
         );
         MoreBadgesPlugin.RegisterBadge(mustardBadge, "Boba_mustard");
         
@@ -96,7 +121,9 @@ public static class BadgeRegistry
             description: "It's a bit nippy out isn't it?",
             icon: _badgeIcons[BadgeNames.PenguinBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("CHILLY!"),
+            descriptionLocalizations: CreateFakeLocalisations("It's a bit nippy out isn't it?")
         );
         MoreBadgesPlugin.RegisterBadge(penguinBadge, "Boba_penguin");
         
@@ -106,7 +133,9 @@ public static class BadgeRegistry
             description: "Be carried into the afterlife.",
             icon: _badgeIcons[BadgeNames.ChairBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("ETERNAL SIT!"),
+            descriptionLocalizations: CreateFakeLocalisations("Be carried into the afterlife.")
         );
         MoreBadgesPlugin.RegisterBadge(chairBadge, "Boba_chair_hat");
         
@@ -116,7 +145,9 @@ public static class BadgeRegistry
             description: "Give the bestest boys some pets.",
             icon: _badgeIcons[BadgeNames.BowBadge],
             progressRequired: 1,
-            runBasedProgress: true
+            runBasedProgress: true,
+            nameLocalizations: CreateFakeLocalisations("SUCH A CUTIE!"),
+            descriptionLocalizations: CreateFakeLocalisations("Give the bestest furballs some pets.")
         );
         MoreBadgesPlugin.RegisterBadge(bowBadge, "Boba_bow");
     }
@@ -163,7 +194,9 @@ public static class BadgeRegistry
             displayName: "BOING!", // All uppercase to match in game badge name display
             description: "Jump 50 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge], //128x128 Texture2D
-            progressRequired: 50
+            progressRequired: 50,
+            nameLocalizations: CreateFakeLocalisations("BOING!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 50 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge, "Boba_labubu");
         
@@ -172,7 +205,9 @@ public static class BadgeRegistry
             displayName: "BOING... AGAIN?!",
             description: "Jump 250 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge2],
-            progressRequired: 250
+            progressRequired: 250,
+            nameLocalizations: CreateFakeLocalisations("BOING... AGAIN?!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 250 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge2, "Boba_labubu_blue");
         
@@ -181,7 +216,9 @@ public static class BadgeRegistry
             displayName: "BOING... AGAIN AGAIN?!",
             description: "Jump 500 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge3],
-            progressRequired: 500
+            progressRequired: 500,
+            nameLocalizations: CreateFakeLocalisations("BOING... AGAIN AGAIN?!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 500 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge3, "Boba_labubu_cyan");
         
@@ -190,7 +227,9 @@ public static class BadgeRegistry
             displayName: "BOING... AGAIN AGAIN AGAIN?!",
             description: "Jump 1000 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge4],
-            progressRequired: 1000
+            progressRequired: 1000,
+            nameLocalizations: CreateFakeLocalisations("BOING... AGAIN AGAIN AGAIN?!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 1000 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge4, "Boba_labubu_green");
         
@@ -199,7 +238,9 @@ public static class BadgeRegistry
             displayName: "BOING... DON'T YOU GET TIRED?!",
             description: "Jump 2000 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge5],
-            progressRequired: 2000
+            progressRequired: 2000,
+            nameLocalizations: CreateFakeLocalisations("BOING... DON'T YOU GET TIRED?!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 2000 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge5, "Boba_labubu_orange");
         
@@ -208,7 +249,9 @@ public static class BadgeRegistry
             displayName: "BOING... YOU REALLY LIKE JUMPING!",
             description: "Jump 3000 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge6],
-            progressRequired: 3000
+            progressRequired: 3000,
+            nameLocalizations: CreateFakeLocalisations("BOING... YOU REALLY LIKE JUMPING!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 3000 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge6, "Boba_labubu_pink");
         
@@ -217,7 +260,9 @@ public static class BadgeRegistry
             displayName: "BOING.. WOW YOU DON'T STOP!",
             description: "Jump 5000 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge7],
-            progressRequired: 5000
+            progressRequired: 5000,
+            nameLocalizations: CreateFakeLocalisations("BOING.. WOW YOU DON'T STOP!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 5000 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge7, "Boba_labubu_purple");
         
@@ -226,7 +271,9 @@ public static class BadgeRegistry
             displayName: "BOING... BASICALLY A RABIT!",
             description: "Jump 7500 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge8],
-            progressRequired: 7500
+            progressRequired: 7500,
+            nameLocalizations: CreateFakeLocalisations("BOING... BASICALLY A RABIT!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 7500 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge8, "Boba_labubu_red");
         
@@ -235,7 +282,9 @@ public static class BadgeRegistry
             displayName: "BOING... YOU'VE JUMPED HOW MANY TIMES?!",
             description: "Jump 10000 times.",
             icon: _badgeIcons[BadgeNames.BoingBadge9],
-            progressRequired: 10000
+            progressRequired: 10000,
+            nameLocalizations: CreateFakeLocalisations("BOING... YOU'VE JUMPED HOW MANY TIMES?!"),
+            descriptionLocalizations: CreateFakeLocalisations("Jump 10000 times.")
         );
         MoreBadgesPlugin.RegisterBadge(boingBadge9, "Boba_labubu_yellow");
     }
