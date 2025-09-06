@@ -2,7 +2,7 @@
 
 Are you a particularly dedicated scout? Do you feel ready to ascend to unprecedented levels of badge collection?
 
-![peakunlimited2](https://glarmer.xyz/images/head.png)
+![peakunlimited2](https://glarmer.xyz/images/badgesforboba/banner.png)
 
 Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and progression to Boba's Hats! 
 
