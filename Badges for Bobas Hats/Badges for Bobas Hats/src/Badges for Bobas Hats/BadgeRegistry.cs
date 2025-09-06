@@ -54,7 +54,7 @@ public static class BadgeRegistry
             name: BadgeNames.DiscoBadge,
             displayName: "SCOUT RAVE!",
             description: "Dance at an epic performance.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.DiscoBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -64,7 +64,7 @@ public static class BadgeRegistry
             name: BadgeNames.JamiroBadge,
             displayName: "VIRTUAL INSANITY!",
             description: "Move like magic with your arm out.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.JamiroBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -74,7 +74,7 @@ public static class BadgeRegistry
             name: BadgeNames.RainbowBadge,
             displayName: "TASTE THE RAINBOW!",
             description: "Eat a rainbow of fruit.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.RainbowBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -84,7 +84,7 @@ public static class BadgeRegistry
             name: BadgeNames.MustardBadge,
             displayName: "HEALTH ADVERSE!",
             description: "Fruit and veg? Over your dead body.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.MustardBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -94,7 +94,7 @@ public static class BadgeRegistry
             name: BadgeNames.PenguinBadge,
             displayName: "CHILLY!",
             description: "It's a bit nippy out isn't it?",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.PenguinBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -104,7 +104,7 @@ public static class BadgeRegistry
             name: BadgeNames.ChairBadge,
             displayName: "ETERNAL SIT!",
             description: "Be carried into the afterlife.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.ChairBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
@@ -114,7 +114,7 @@ public static class BadgeRegistry
             name: BadgeNames.BowBadge,
             displayName: "SUCH A CUTIE!",
             description: "Give the bestest boys some pets.",
-            icon: PlaceholderBadgeIcon,
+            icon: _badgeIcons[BadgeNames.BowBadge],
             progressRequired: 1,
             runBasedProgress: true
         );
