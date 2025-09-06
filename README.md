@@ -49,7 +49,3 @@ This mod is not affiliated with Boba or [Boba's Hats](https://github.com/Team-Pe
 
 The creative assets in this mod are licensed under the
 [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](https://creativecommons.org/licenses/by-nc-sa/4.0/).
-
-## Images
-- Here are some fun pictures using the mod
-
