@@ -11,6 +11,7 @@ Introducing, "Badges For Boba's Hats", a mod for PEAK which adds badges and prog
 ## Features:
 - Adds progression and badges to Boba's Hats Mod
 - Many unlockable hats!
+- Currently 19 badges, more to come!
 
 ## My other mods
 
