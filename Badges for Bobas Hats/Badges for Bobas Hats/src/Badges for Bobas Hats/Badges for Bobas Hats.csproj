@@ -47,6 +47,18 @@
       <EmbeddedResource Include="Resources\Magic_Bean_Vine.png" />
       <None Remove="Resources\Rainbow.png" />
       <EmbeddedResource Include="Resources\Rainbow.png" />
+      <None Remove="Resources\Bow.png" />
+      <EmbeddedResource Include="Resources\Bow.png" />
+      <None Remove="Resources\Chair.png" />
+      <EmbeddedResource Include="Resources\Chair.png" />
+      <None Remove="Resources\Disco.png" />
+      <EmbeddedResource Include="Resources\Disco.png" />
+      <None Remove="Resources\Jamiro.png" />
+      <EmbeddedResource Include="Resources\Jamiro.png" />
+      <None Remove="Resources\Mustard.png" />
+      <EmbeddedResource Include="Resources\Mustard.png" />
+      <None Remove="Resources\Penguin.png" />
+      <EmbeddedResource Include="Resources\Penguin.png" />
     </ItemGroup>
 
     <!--
