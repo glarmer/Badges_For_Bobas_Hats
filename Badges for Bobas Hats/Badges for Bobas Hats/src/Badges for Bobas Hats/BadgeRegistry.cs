@@ -11,7 +11,16 @@ public static class BadgeRegistry
     
     public static void RegisterBadges()
     {
-        RegisterLabubuBadges();
+        RegisterBadge(BadgeData.BoingBadge, 50, false, "Boba_labubu");
+        RegisterBadge(BadgeData.BoingBadge2, 250, false, "Boba_labubu_blue");
+        RegisterBadge(BadgeData.BoingBadge3, 500, false, "Boba_labubu_cyan");
+        RegisterBadge(BadgeData.BoingBadge4, 1000, false, "Boba_labubu_green");
+        RegisterBadge(BadgeData.BoingBadge5, 2000, false, "Boba_labubu_orange");
+        RegisterBadge(BadgeData.BoingBadge6, 3000, false, "Boba_labubu_pink");
+        RegisterBadge(BadgeData.BoingBadge7, 5000, false, "Boba_labubu_purple");
+        RegisterBadge(BadgeData.BoingBadge8, 7500, false, "Boba_labubu_red");
+        RegisterBadge(BadgeData.BoingBadge9, 10000, false, "Boba_labubu_yellow");
+        
         RegisterBadge(BadgeData.BearBadge, 1, true, "Boba_bear");
         RegisterBadge(BadgeData.BowBadge, 1, true, "Boba_bow");
         RegisterBadge(BadgeData.ChairBadge, 1, true, "Boba_chair_hat");
@@ -45,20 +54,4 @@ public static class BadgeRegistry
         );
         MoreBadgesPlugin.RegisterBadge(newBadge, cosmeticId);
     }
-    
-    
-
-    private static void RegisterLabubuBadges()
-    {
-        RegisterBadge(BadgeData.BoingBadge, 50, false, "Boba_labubu");
-        RegisterBadge(BadgeData.BoingBadge2, 250, false, "Boba_labubu_blue");
-        RegisterBadge(BadgeData.BoingBadge3, 500, false, "Boba_labubu_cyan");
-        RegisterBadge(BadgeData.BoingBadge4, 1000, false, "Boba_labubu_green");
-        RegisterBadge(BadgeData.BoingBadge5, 2000, false, "Boba_labubu_orange");
-        RegisterBadge(BadgeData.BoingBadge6, 3000, false, "Boba_labubu_pink");
-        RegisterBadge(BadgeData.BoingBadge7, 5000, false, "Boba_labubu_purple");
-        RegisterBadge(BadgeData.BoingBadge8, 7500, false, "Boba_labubu_red");
-        RegisterBadge(BadgeData.BoingBadge9, 10000, false, "Boba_labubu_yellow");
-    }
-    
 }
