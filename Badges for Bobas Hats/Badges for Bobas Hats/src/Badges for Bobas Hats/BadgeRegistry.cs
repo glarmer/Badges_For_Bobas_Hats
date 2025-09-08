@@ -35,13 +35,10 @@ public static class BadgeRegistry
 
     private static void RegisterBadge(string id, int progressRequired, bool runBasedProgress, string cosmeticId)
     {
-        Plugin.Logger.LogInfo("Registering a badge");
         string badgeName = id.Split(":")[1];
-        Plugin.Logger.LogInfo($"Registering a badge: {badgeName}");
         List<string> names = BadgeData.GetLocalisationList((badgeName + "_Name"));
         List<string> descriptions = BadgeData.GetLocalisationList((badgeName + "_Description"));
-        Plugin.Logger.LogInfo($"Registering a badge: {names[0]} {descriptions[0]}");
-        Plugin.Logger.LogInfo($"Registering a badge: {names.ToString()} | {descriptions.ToString()}");
+        Plugin.Logger.LogInfo($"Registering badge: {names[0]} {descriptions[0]}");
         MoreBadgesPlugin.CustomBadge newBadge = new MoreBadgesPlugin.CustomBadge(
             name: id,
             displayName: names[0],
