@@ -11,7 +11,7 @@ public class CharacterRPCADiePatch
     {
         if (__instance.data.isCarried)
         {
-            MoreBadgesPlugin.AddProgress(BadgeNames.ChairBadge, 1);
+            MoreBadgesPlugin.AddProgress(BadgeData.ChairBadge, 1);
         }
     }
 }

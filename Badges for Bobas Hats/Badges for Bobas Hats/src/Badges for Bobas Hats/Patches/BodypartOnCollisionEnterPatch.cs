@@ -17,7 +17,7 @@ public class BodypartOnCollisionEnterPatch
             {
                 if (current.name.StartsWith("Capybara"))
                 {
-                    MoreBadgesPlugin.AddProgress(BadgeNames.BowBadge, 1);
+                    MoreBadgesPlugin.AddProgress(BadgeData.BowBadge, 1);
                     break;
                 }
                 current = current.parent;

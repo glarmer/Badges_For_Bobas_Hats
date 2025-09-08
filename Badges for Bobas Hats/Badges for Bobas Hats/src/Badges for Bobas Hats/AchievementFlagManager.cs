@@ -37,6 +37,6 @@ public class AchievementFlagManager
 
     private static void UnlockWinBasedAchievements()
     {
-        if (!HasConsumedNaturalFood) MoreBadgesPlugin.AddProgress(BadgeNames.MustardBadge, 1);
+        if (!HasConsumedNaturalFood) MoreBadgesPlugin.AddProgress(BadgeData.MustardBadge, 1);
     }
 }

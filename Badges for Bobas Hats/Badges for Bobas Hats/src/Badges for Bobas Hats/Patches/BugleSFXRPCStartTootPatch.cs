@@ -16,7 +16,7 @@ public class BugleSFXRPCStartTootPatch
         Plugin.Logger.LogInfo($"Toot happened at: {Time.time} Dance time: {CharacterAnimationsRPCAPlayRemove.EmoteTime}");
         if (CharacterAnimationsRPCAPlayRemove.EmoteTime + 3f >= Time.time)
         {
-            MoreBadgesPlugin.AddProgress(BadgeNames.DiscoBadge, 1);
+            MoreBadgesPlugin.AddProgress(BadgeData.DiscoBadge, 1);
         }
     }
 }

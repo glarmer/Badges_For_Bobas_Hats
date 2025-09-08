@@ -17,7 +17,8 @@ public partial class Plugin : BaseUnityPlugin
     {
         Logger = base.Logger;
         Logger.LogInfo($"Plugin {Name} is loaded!");
-        BadgeRegistry.Init();
+        BadgeData.Init();
+        BadgeRegistry.RegisterBadges();
         Logger.LogInfo("Badges for Bobas Hats are loaded!");
         
         //Patch for Labubu hats

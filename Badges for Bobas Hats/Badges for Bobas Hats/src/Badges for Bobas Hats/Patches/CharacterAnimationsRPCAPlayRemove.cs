@@ -16,7 +16,7 @@ public class CharacterAnimationsRPCAPlayRemove
         Plugin.Logger.LogInfo($"Dance happened at: {EmoteTime}");
         if (BugleSFXRPCStartTootPatch.BuglesPlaying > 0 && emoteName.Equals("A_Scout_Emote_Dance1"))
         {
-            MoreBadgesPlugin.AddProgress(BadgeNames.DiscoBadge, 1);
+            MoreBadgesPlugin.AddProgress(BadgeData.DiscoBadge, 1);
         }
     }
 }

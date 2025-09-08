@@ -10,14 +10,14 @@ public class CharacterOnJumpPatch
     [HarmonyPostfix]
     static void Postfix(Character __instance)
     {
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge2, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge3, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge4, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge5, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge6, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge7, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge8, 1);
-        MoreBadgesPlugin.AddProgress(BadgeNames.BoingBadge9, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge2, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge3, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge4, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge5, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge6, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge7, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge8, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.BoingBadge9, 1);
     }
 }

@@ -9,6 +9,6 @@ public class MagicBeanGrowVineRPCPatch
     [HarmonyPostfix]
     static void Postfix()
     {
-        MoreBadgesPlugin.AddProgress(BadgeNames.MagicBeanVineBadge, 1);
+        MoreBadgesPlugin.AddProgress(BadgeData.MagicBeanVineBadge, 1);
     }
 }

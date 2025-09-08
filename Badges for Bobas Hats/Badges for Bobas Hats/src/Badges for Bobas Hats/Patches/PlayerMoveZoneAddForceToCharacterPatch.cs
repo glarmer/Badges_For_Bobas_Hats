@@ -25,7 +25,7 @@ public class PlayerMoveZoneAddForceToCharacterPatch
         }
         if (_lastTime - _startTime > DurationRequired)
         {
-            MoreBadgesPlugin.AddProgress(BadgeNames.JamiroBadge, 1);
+            MoreBadgesPlugin.AddProgress(BadgeData.JamiroBadge, 1);
         }
     }
 }

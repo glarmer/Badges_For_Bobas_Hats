@@ -11,9 +11,9 @@ public class ActionRestoreHungerRunActionPatch
     [HarmonyPostfix]
     static void Postfix(Action_RestoreHunger __instance)
     {
-        if(__instance.item.itemID == HoneycombItemID) MoreBadgesPlugin.AddProgress(BadgeNames.BearBadge, 1);
+        if(__instance.item.itemID == HoneycombItemID) MoreBadgesPlugin.AddProgress(BadgeData.BearBadge, 1);
 
-        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeNames.RainbowBadge)!.isUnlocked)
+        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeData.RainbowBadge)!.isUnlocked)
         {
             if (__instance.item.name.ToLower().Contains("red")) AchievementFlagManager.HasConsumedRed = true;
             if (__instance.item.name.ToLower().Contains("orange")) AchievementFlagManager.HasConsumedOrange = true;
@@ -30,11 +30,11 @@ public class ActionRestoreHungerRunActionPatch
                 AchievementFlagManager.HasConsumedGreen && AchievementFlagManager.HasConsumedBlue &&
                 AchievementFlagManager.HasConsumedPurple && AchievementFlagManager.HasConsumedPink)
             {
-                MoreBadgesPlugin.AddProgress(BadgeNames.RainbowBadge, 1);
+                MoreBadgesPlugin.AddProgress(BadgeData.RainbowBadge, 1);
             }
         }
 
-        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeNames.MustardBadge)!.isUnlocked)
+        if (!MoreBadgesPlugin.GetCustomBadgeStatus(BadgeData.MustardBadge)!.isUnlocked)
         {
             if (__instance.item.name.ToLower().Contains("coconut")) AchievementFlagManager.HasConsumedNaturalFood = true;
             if (__instance.item.name.ToLower().Contains("berry")) AchievementFlagManager.HasConsumedNaturalFood = true;

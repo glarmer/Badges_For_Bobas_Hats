@@ -21,44 +21,50 @@
     </ItemGroup>
 
     <ItemGroup>
+      <EmbeddedResource Include="Resources\Badges\Toast.png" />
       <None Remove="Resources\circle_labubu_256.png" />
-      <EmbeddedResource Include="Resources\Boing.png" />
+      <EmbeddedResource Include="Resources\Badges\Bear.png" />
       <None Remove="Resources\Boing_2.png" />
-      <EmbeddedResource Include="Resources\Boing_2.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing.png" />
       <None Remove="Resources\Boing_3.png" />
-      <EmbeddedResource Include="Resources\Boing_3.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_2.png" />
       <None Remove="Resources\Boing_4.png" />
-      <EmbeddedResource Include="Resources\Boing_4.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_3.png" />
       <None Remove="Resources\Boing_5.png" />
-      <EmbeddedResource Include="Resources\Boing_5.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_4.png" />
       <None Remove="Resources\Boing_6.png" />
-      <EmbeddedResource Include="Resources\Boing_6.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_5.png" />
       <None Remove="Resources\Boing_7.png" />
-      <EmbeddedResource Include="Resources\Boing_7.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_6.png" />
       <None Remove="Resources\Boing_8.png" />
-      <EmbeddedResource Include="Resources\Boing_8.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_7.png" />
       <None Remove="Resources\Boing_9.png" />
-      <EmbeddedResource Include="Resources\Boing_9.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_8.png" />
       <None Remove="Resources\Toast.png" />
-      <EmbeddedResource Include="Resources\Toast.png" />
+      <EmbeddedResource Include="Resources\Badges\Boing_9.png" />
+      <EmbeddedResource Include="Resources\Badges\Bow.png" />
+      <EmbeddedResource Include="Resources\Badges\Chair.png" />
+      <EmbeddedResource Include="Resources\Badges\Disco.png" />
+      <EmbeddedResource Include="Resources\Badges\Jamiro.png" />
+      <EmbeddedResource Include="Resources\Badges\Magic_Bean_Vine.png" />
+      <EmbeddedResource Include="Resources\Badges\Mustard.png" />
+      <EmbeddedResource Include="Resources\Badges\Penguin.png" />
+      <EmbeddedResource Include="Resources\Badges\Rainbow.png" />
       <None Remove="Resources\Bear.png" />
-      <EmbeddedResource Include="Resources\Bear.png" />
       <None Remove="Resources\Magic_Bean_Vine.png" />
-      <EmbeddedResource Include="Resources\Magic_Bean_Vine.png" />
       <None Remove="Resources\Rainbow.png" />
-      <EmbeddedResource Include="Resources\Rainbow.png" />
       <None Remove="Resources\Bow.png" />
-      <EmbeddedResource Include="Resources\Bow.png" />
       <None Remove="Resources\Chair.png" />
-      <EmbeddedResource Include="Resources\Chair.png" />
       <None Remove="Resources\Disco.png" />
-      <EmbeddedResource Include="Resources\Disco.png" />
       <None Remove="Resources\Jamiro.png" />
-      <EmbeddedResource Include="Resources\Jamiro.png" />
       <None Remove="Resources\Mustard.png" />
-      <EmbeddedResource Include="Resources\Mustard.png" />
       <None Remove="Resources\Penguin.png" />
-      <EmbeddedResource Include="Resources\Penguin.png" />
+      <None Remove="Resources\Localisations\Localisations.csv" />
+      <EmbeddedResource Include="Resources\Localisations\Localisations.csv" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Resources\Localisations\" />
     </ItemGroup>
 
     <!--
